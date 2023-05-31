@@ -1,0 +1,77 @@
+.Uber {
+    width: 120px;
+    height: 38px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.Amazon {
+    width: 170px;
+    height: 30px;
+    background-color: rgb(255, 216, 20);
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+
+.Github {
+    width: 90px;
+    height: 35px;
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.Boots1 {
+    width: 100px;
+    height: 36px;
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.Boots2 {
+    width: 100px;
+    height: 36px;
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border: 1px solid rgb(108, 117, 125);
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.Linked1 {
+    width: 230px;
+    height: 36px;
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.Linked2 {
+    width: 77px;
+    height: 36px;
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border: 1px solid rgb(10, 102, 194);
+    border-radius: 18px;
+    font-weight: bold;
+}
+
+.Amazon, .Boots1, .Boots2, .Github, .Linked1, .Linked2, .Uber {
+    cursor: pointer;
+}
