@@ -1,0 +1,59 @@
+.btn1 {
+    text-transform: uppercase;
+    background-color: rgb(204, 23, 23);
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity 0.15s;
+}
+
+.btn1:hover {
+    opacity: 0.7;
+}
+.btn1:active {
+    opacity: 0.4;
+}
+
+.btn2 {
+    text-transform: uppercase;
+    background-color: white;
+    color: rgb(41, 118, 211);
+    border: 1px solid rgb(41, 118, 211);
+    border-radius: 3px;
+    font-size: 17px;
+    width: 60px;
+    height: 35px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.15s,color 0.15s;
+    
+}
+
+.btn2:hover {
+    background-color: rgb(41, 118, 211);
+    color: white;
+}
+.btn2:active {
+    opacity: 0.8;
+}
+.btn3 {
+    text-transform: capitalize;
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    border-radius: 18px;
+    font-size: 15px;
+    width: 75px;
+    height: 36px;
+    cursor: pointer;
+    transition: box-shadow 0.15;
+}
+
+.btn3:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
